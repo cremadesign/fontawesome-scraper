@@ -1,0 +1,41 @@
+{
+	"name": "@cremadesign/fontawesome-scraper",
+	"version": "1.0.0-beta.0",
+	"description": "Automatically find Font Awesome Icons in your website's files",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"demo": "node demo.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/cremadesign/fontawesome-scraper.git"
+	},
+	"keywords": [
+		"font",
+		"awesome",
+		"fontawesome",
+		"fontawesome pro",
+		"scraper",
+		"find fonts",
+		"find font awesome"
+	],
+	"author": {
+		"name": "Stephen Ginn",
+		"email": "callaginn@users.noreply.github.com",
+		"url": "https://cremadesignstudio.com/staff/callaginn"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/cremadesign/fontawesome-scraper/issues"
+	},
+	"homepage": "https://github.com/cremadesign/fontawesome-scraper#readme",
+	"dependencies": {
+		"@fortawesome/fontawesome-free": "github:FortAwesome/Font-Awesome#5.x",
+		"extend": "^3.0.2",
+		"fontawesome-subset": "^3.0.0"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
+}
