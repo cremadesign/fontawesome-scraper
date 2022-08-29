@@ -31,11 +31,10 @@
 	},
 	"homepage": "https://github.com/cremadesign/fontawesome-scraper#readme",
 	"dependencies": {
-		"@fortawesome/fontawesome-free": "github:FortAwesome/Font-Awesome#5.x",
-		"extend": "^3.0.2",
-		"fontawesome-subset": "^3.0.0"
+		"extend": "^3.0.2"
 	},
-	"publishConfig": {
-		"access": "public"
+	"optionalDependencies": {
+		"@fortawesome/fontawesome-free": "github:FortAwesome/Font-Awesome#5.x",
+		"fontawesome-subset": "^3.0.0"
 	}
 }
