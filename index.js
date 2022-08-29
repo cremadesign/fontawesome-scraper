@@ -8,7 +8,7 @@ import { exec } from 'child_process';
 
 export default async function iconScraper(options) {
 	var settings = extend(true, {
-		regex: 'fa[A-z,]{0,1} .?fa-[A-z-]+',
+		regex: 'fa[A-z]{0,1},? .?fa-[A-z-]+',
 		mapping: {
 			fa: 'solid',
 			fas: 'solid',
