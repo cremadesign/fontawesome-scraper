@@ -33,8 +33,5 @@
 	"dependencies": {
 		"extend": "^3.0.2"
 	},
-	"optionalDependencies": {
-		"@fortawesome/fontawesome-free": "github:FortAwesome/Font-Awesome#5.x",
-		"fontawesome-subset": "^3.0.0"
-	}
+	"optionalDependencies": {}
 }
